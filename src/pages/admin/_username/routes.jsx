@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Switch, Route } from "react-router-dom";
 import AdminUsernamePostsRoutes from "./posts/routes";
-import AdminUsername from "./posts/index.jsx";
+import AdminUsername from "./posts";
 
 class AdminUsernameRoute extends Component {
   static propTypes = {
